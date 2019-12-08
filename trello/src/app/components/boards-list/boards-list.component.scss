@@ -1,0 +1,12 @@
+.board{
+  margin: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+  outline: none;
+  
+  &:hover{
+    border: 2px solid rgb(228, 84, 0);
+    cursor: pointer;
+  }
+}

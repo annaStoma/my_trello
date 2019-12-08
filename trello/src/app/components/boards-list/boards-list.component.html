@@ -1,0 +1,8 @@
+<div *ngFor="let board of boards; let i = index">
+    <div class="board" [routerLink]="['board', board]"> {{i+1}} | {{board}}
+        <button style="float:right" (click)="removeBoard(board)">-</button>
+        <!-- <app-board [boardTitle]="board" hidden></app-board> -->
+    </div>
+  
+</div>
+  <router-outlet></router-outlet>
